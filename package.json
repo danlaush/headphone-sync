@@ -1,0 +1,25 @@
+{
+  "name": "headphones-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/checkbox": "^2.3.10",
+    "@inquirer/confirm": "^3.1.15",
+    "@inquirer/core": "^9.0.3",
+    "@inquirer/figures": "^1.0.4",
+    "@inquirer/prompts": "^5.1.2",
+    "ansi-escapes": "^7.0.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "jsdom": "^24.1.0",
+    "sanitize-filename": "^1.6.3",
+    "yoctocolors-cjs": "^2.1.2"
+  }
+}
