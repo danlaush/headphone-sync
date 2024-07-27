@@ -2,6 +2,10 @@
 
 Homemade apps - this CLI acts as a media library manager for my waterproof headphones which are a basic USB file system. Download podcast mp3s and put them on the device.
 
+Things worth mentioning
+- Uses Inquirer.js for the CLI selection, but a [modified version](https://github.com/danlaush/headphone-sync/blob/main/inquirer-checkbox-ordered.mjs#L92-L106) of the [checkbox component](https://github.com/SBoudrias/Inquirer.js/tree/main/packages/checkbox)
+- Uses Node's `child_process#execSync` to run ffmpeg directly. Didn't feel like adding another JS lib to wrap it.
+
 ## Instructions
 
 1. Have ffmpeg installed, available to Node/command line
@@ -11,7 +15,8 @@ Homemade apps - this CLI acts as a media library manager for my waterproof headp
 1. `node append.mjs` and follow instructions
    - When presented with podcast titles, use number keys to control playback order
 
-## Screenshots
+
+## Screenshots
 
 Delete all items in the storage folder
 ![Delete all items in the storage folder](./docs/1.png)
